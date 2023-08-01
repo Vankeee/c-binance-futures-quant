@@ -2,12 +2,19 @@
 
 It is the structure of Binance Futures, with more than $10 billion in trading volume and more than a year of real-time verification, including data entry, risk control, trading, data analysis, but does not include specific strategies.
 
-Front-end demo address: temporarily down, currently in the design of a new set of demo solutions, is expected to July 28th online!
-
 You can use it to implement your trading logic in a simple, low-cost way, which makes extensive use of AliCloud servers for distributed architecture, multi-processing, and Flybook for exception reporting and transaction information disclosure.
 
 If you are willing to read all the information in this readme in detail, especially [Module Detailed Analysis](#Module-detailed-analysis), then it will also be a book on Binance Contracts trading risk control, experience and understanding of the design architecture, and summarizes almost all my successes and failures.
 
+I track the skeleton of the strategy I maintain, under different parameters and factors of the live real-time trading display page
+
+[ C QUANT ](http://8.218.235.38/#/)
+
+My other articles
+
+[Exploration of a self-built high-frequency simulation aggregation engine](https://zhuanlan.zhihu.com/p/646840989)
+
+[Exchange Interface Latency Analysis](https://zhuanlan.zhihu.com/p/647035185)
 
 # Advantage
 
@@ -74,7 +81,11 @@ Because high-frequency trading only requires a short period of data to confirm t
 
 Personally, I feel that this is more realistic compared to backtracking, and the default parameters can be infiltrated into one of the fuzzy comparisons, even if there are some deviations in the overall system, you can still effectively explore the factor parameters!
 
-http://8.218.235.38/#/
+
+[ ​C QUANT ](http://8.218.235.38/#/)
+
+[Exploration of a self-built high-frequency simulation aggregation engine](https://zhuanlan.zhihu.com/p/646842999)
+
 # Environment and startup
 
 Our live project runs on Ubuntu 22.04 64-bit, Python 3.10.6.
