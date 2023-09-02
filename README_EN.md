@@ -8,13 +8,33 @@ If you are willing to read all the information in this readme in detail, especia
 
 I track the skeleton of the strategy I maintain, under different parameters and factors of the live real-time trading display page
 
-[ C QUANT ](http://8.218.235.38/#/)
+Updating these languages below is scheduled for the 27th of August 2023
+
+In all honesty, I don't want to make the project public, and the most important thing you want when doing quantisation, especially in the cryptocurrency world, is to keep a low profile
+
+The purpose of my posting a series of Zhihu articles and open sourcing on github in July 2023 was because I had, in the past year, suffered the biggest Waterloo of my life, I was heavily in debt and had no choice but to seek out collaborations for a shot at survival
+
+I did get cooperation opportunities through this project, including funds and accounts, as well as a lot of friends doing high-frequency, in the mutual exchanges between the formation of a lot of inspiration for me, and integrated into my actual strategy and structure, I think these two months is the two months of my history, the fastest growth in quantitative aspects!
+
+As a result of my first time open sourcing, I accidentally compromised my personal confidence in the project and was attacked by a social worker, but the cost, including the value I brought to other people by open sourcing, was fair compared to what I got out of it!
+
+I am still grateful, so although I have got what I wanted, I will not delete the project and all the articles, now or in the future!
+
+The high-frequency system I am currently running is based on this project, but the actual latency has been optimised to less than a tenth of the open-source architecture, and will not be open-sourced, nor will the project be updated.
+
 
 My other articles
+
+[10ms, python+aliyun, not beautiful, but practical](https://zhuanlan.zhihu.com/p/647402709)
 
 [Exploration of a self-built high-frequency simulation aggregation engine](https://zhuanlan.zhihu.com/p/646840989)
 
 [Exchange Interface Latency Analysis](https://zhuanlan.zhihu.com/p/647035185)
+
+my high-frequency live 
+[C Quant club] (http://c-quant.club/#/CQuant)
+
+Receive funds, 20,000 U.S. dollars to 500,000 U.S. dollars, the estimated annualized 100% ~ 150%, 5 5 points, loss is responsible for, the maximum retracement of 30%, at least six months of the signing, the end of the month, the need to call my account, to provide data web page, interested in contacting the WeChat melelery
 
 # Advantage
 
@@ -42,49 +62,6 @@ For example, there are three ways to get the account balance and position data o
 
 Front-end data board, through the Ali cloud oss as an intermediary, the web page to read oss data for display, isolate the data risk
 
-# Author
-
-In 2021, I resigned from a top quantitative company to do quantitative trading, the main battlefield in the coin security, during these two years, I have been involved from market maker -> trend -> arbitrage and other types, the peak time, in the coin security a month there is close to 2 billion U.S. dollars in trading volume.
-
-By July 2023, for a variety of reasons, the general direction failed, leaving only a very small amount of money to continue to run a more stable and profitable left side trading strategy.
-
-This is a set of high efficiency, low cost data reading, entry framework explored in the past two years, and includes a set of risk control system, he is more like a structure, rather than a realisation, you can also be applied to okex, bybit, etc. through simple modification and replacement.
-
-Funding co-operation or job opportunities (do not talk about any involved strategy principles and source code, please open the door to save both sides time), please contact the micro-signal melelery 或邮件至c.binance.quant@gmail.com
-
-July 24th update additional information, not related to this open source project, may be regarded as advertising, if you do not like it, please skip!
-
-In the past few days, I've been exchanging with more than a dozen friends in addition to HR, so I'd like to unify my personal quantitative experience that everyone is most concerned about.
-
-Last year December ~ March and my friend to do the market negotiation of Coinan, MM3 account, the transaction volume can basically meet the requirements, basically only do ethereum and bitcoin, but can not carry the trend of the market, the prediction can not complete the transaction volume indicator, so the back of the idea to shift to the quantification of the pan-currency.
-
-I've been doing this for almost a month and a half, and the apr of $10,000 is about 900%, but with the increase in the amount of funds the annualised rate of decline, the apr of $50,000 is about 200% to 300%, no leverage, the maximum retracement is 25%, and the daily turnover of $50,000 is $50,000 to $1,000,000.
-
-![微信图片_20230715195116](https://github.com/Melelery/c-binance-future-quant/assets/139823868/b63e8822-5cf7-4dcf-82ac-33a6cddbf375)
-The chart was 750usd principal for the first three days, 10kusd until June, and gradually rose to 50kusd later on
-
-I couldn't keep the MM3 market maker at the back, and wanted to try to switch to take strategy, but it didn't work out, including the current webpage showing the take strategy, and I was cut off from funding.
-
-So I'm open-sourcing the structure in the hope that I can find some opportunities, including funding or jobs, but not involving my own strategy.
-
-At present, there are already a few friends of the marketer resources contact me, with marketer account needs trading volume, without marketer account needs commission rate, if you also have the marketer resources to match the demand can contact me.
-
-There are also capital contacts, but the conditions mentioned by the capital slightly more than my psychological expectations, 1 is the need to run in each other's accounts, which represents the data exposed, 2 is divided, before I was 7 3 open, currently contacted are 2 8, 3 7, three is the capital capacity, I do not do the strategy of the capital capacity is not large (peak in the 30 ~ 500,000 U.S. dollars, depending on the account of the marketer level)
-
-So if it is the capital side of the cooperation, my expectations are 1. the amount of funds do not need to be too high, 1 ~ 100,000 U.S. dollars, 2. need to run in our account or your side has the Coin MM5 marketer resources, 3. the share of this can be made concessions, depending on the resources, the resources are good in the case of the 3 7 will be able to do.
-
-Personally, I prefer to have a stable job opportunity or outsourcing project opportunity, I will start after accumulating my own!
-
-2023.07.28, these three days while waiting for the next reply from several investors, by the way, I designed a system to track my strategy skeleton, under different parameters of the factor of live real-time trading.
-
-Because high-frequency trading only requires a short period of data to confirm the validity of the parameter factors.
-
-Personally, I feel that this is more realistic compared to backtracking, and the default parameters can be infiltrated into one of the fuzzy comparisons, even if there are some deviations in the overall system, you can still effectively explore the factor parameters!
-
-
-[ ​C QUANT ](http://8.218.235.38/#/)
-
-[Exploration of a self-built high-frequency simulation aggregation engine](https://zhuanlan.zhihu.com/p/646842999)
 
 # Environment and startup
 
@@ -125,7 +102,7 @@ nohup ./wsServer.out >/dev/null &
 
 Since all the libraries and packages used in the project are official or popular projects, you can find the installation method in google, so I won't repeat how to install the environment here.
 
-If you need a minimal startup solution, you can contact us at c.binance.quant@gmail.com and we will share the system image directly to your Aliyun account for a technical fee of 100 USDT.
+If you need a minimal startup solution, you can contact us at c.binance.quant@gmail.com and we will share the system image directly to your Aliyun account for a technical fee of 1000 USDT.
 
 # Module detailed analysis
 
